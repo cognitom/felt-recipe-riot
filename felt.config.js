@@ -23,7 +23,10 @@ module.exports = {
         resolve({ jsnext: true,  main: true, browser: true }),
         commonjs(),
         buble()
-      ]
+      ],
+      // At this point riot has no support for sourcemap.
+      // We'd like to change this to `true` later.
+      sourceMap: false
     }),
     '.css': postcss({
       plugins: [
