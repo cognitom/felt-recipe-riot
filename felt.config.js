@@ -12,7 +12,7 @@ const
   commonjs = require('rollup-plugin-commonjs'),
   postcss = require('felt-postcss'),
   postcssImport = require('postcss-import'),
-  autoprefixer = require('autoprefixer')
+  cssnext = require('postcss-cssnext')
 
 module.exports = {
   // default handlers for each extension
@@ -31,7 +31,7 @@ module.exports = {
     '.css': postcss({
       plugins: [
         postcssImport(),
-        autoprefixer()
+        cssnext()
       ],
       options: {
         map: { inline: false }

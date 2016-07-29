@@ -17,9 +17,9 @@
     "felt"
   ],
   "dependencies": {
-    "autoprefixer": "^6.3.5",
     "felt-postcss": "^0.1.0",
     "felt-rollup": "^0.1.0",
+    "postcss-cssnext": "^2.7.0",
     "postcss-import": "^8.0.2",
     "rollup-plugin-buble": "^0.12.1",
     "rollup-plugin-commonjs": "^2.2.1",
