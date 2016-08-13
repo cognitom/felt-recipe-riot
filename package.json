@@ -3,6 +3,9 @@
   "version": "0.2.1",
   "description": "A recipe for Felt with Riot",
   "main": "felt.config.js",
+  "files": [
+    "felt.config.js"
+  ],
   "homepage": "https://github.com/cognitom/felt-recipe-riot",
   "repository": {
     "type": "git",
@@ -34,7 +37,8 @@
     "mocha": "^3.0.2",
     "nightmare": "^2.6.1",
     "request": "^2.74.0",
-    "request-promise": "^4.1.1"
+    "request-promise": "^4.1.1",
+    "riot": "^2.5.0"
   },
   "scripts": {
     "test": "npm run eslint && npm run mocha",
