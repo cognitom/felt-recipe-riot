@@ -1,17 +1,17 @@
-# felt-recipe-minimal
+# felt-recipe-riot
 
 [![Build Status][travis-image]][travis-url]
 
-This is a minimal recipe for [Felt](https://github.com/cognitom/felt).
+This is A recipe for [Felt](https://github.com/cognitom/felt) with [Riot](http://riotjs.com/).
 
 ```bash
-$ npm install felt-recipe-minimal
+$ npm install felt-recipe-riot
 ```
 
 ## Usage via CLI
 
 ```bash
-$ felt --recipe minimal --src public
+$ felt --recipe riot --src public
 ```
 
 ## Usage via Express
