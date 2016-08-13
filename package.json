@@ -1,6 +1,6 @@
 {
   "name": "felt-recipe-riot",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A recipe for Felt with Riot",
   "main": "felt.config.js",
   "files": [
